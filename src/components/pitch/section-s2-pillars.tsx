@@ -7,9 +7,9 @@ export function SectionS2Pillars() {
       </div>
       <div className="flex flex-col min-h-screen justify-center container">
         <h2 className="px-4 md:px-0 text-[28px] md:text-[54px] font-medium text-center leading-tight">
-          Planning & Constraints • Orchestration & Tools • Evidence & Learning
+          Plan & Constraints • Orchestrate & Tools • Evidence & Learn
         </h2>
-        <div className="mt-10 grid md:grid-cols-3 gap-6 md:gap-10 px-4 md:px-0">
+        <div className="mt-10 grid md:grid-cols-3 gap-6 md:gap-12 px-4 md:px-0">
           <div className="border border-border bg-[#121212] p-6 md:p-8">
             <h3 className="text-xl md:text-2xl mb-3">Planning & Constraints</h3>
             <ul className="text-[#9A9A9A] text-sm space-y-2">

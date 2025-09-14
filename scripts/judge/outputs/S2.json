@@ -1,0 +1,86 @@
+{
+  "id": "S2",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.8,
+      "rationale": "B shorter H1 improves scan path",
+      "confidence": 0.79
+    },
+    "grounding": {
+      "pick": "B",
+      "delta": 0.5,
+      "rationale": "Both cite same spec; B cleaner mapping",
+      "confidence": 0.66
+    },
+    "narrative": {
+      "pick": "A",
+      "delta": 0.3,
+      "rationale": "A full phrase reads clearer",
+      "confidence": 0.71
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.9,
+      "rationale": "B hits 3‑sec rule",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.2,
+      "rationale": "B nudges toward triad use",
+      "confidence": 0.69
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass; enlarge legend",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.73,
+  "grounding_coverage": {
+    "A": 0.8,
+    "B": 0.82
+  },
+  "status": "NEEDS_MORE_EVIDENCE",
+  "notes": "If keeping A, reduce H1 to ≤60 chars; enlarge legend to ≥12px.",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase spacing to 24px between columns",
+    "evidence": "Add one code citation with line anchor"
+  },
+  "variant_A": {
+    "id": "S2.A",
+    "headline": "Core Agentic Pillars — Planning & Constraints • Orchestration & Tools • Evidence & Learning",
+    "body": "Three columns emphasize budgets, determinism, artifacts",
+    "evidence": [
+      "memory-bank/systemPatterns.md#pillars",
+      "BROWSER_TOOLING_HARDENED_SPEC.md#determinism"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_columns"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S2.B",
+    "headline": "Plan & Constraints • Orchestrate & Tools • Evidence & Learn",
+    "body": "Triad with shorter H1 to improve scanability",
+    "evidence": [
+      "memory-bank/systemPatterns.md#pillars"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_columns"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

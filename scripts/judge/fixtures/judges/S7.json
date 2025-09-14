@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "layout": {
+      "A": {"score": 8.8, "confidence": 0.80},
+      "B": {"score": 9.2, "confidence": 0.82},
+      "rationale": "Inline boundary improves scan path"
+    },
+    "grounding": {
+      "A": {"score": 7.0, "confidence": 0.60},
+      "B": {"score": 7.0, "confidence": 0.60},
+      "rationale": "External code ref not available in this repo"
+    },
+    "narrative": {
+      "A": {"score": 8.6, "confidence": 0.74},
+      "B": {"score": 8.9, "confidence": 0.76},
+      "rationale": "Boundary phrasing clarifies roles"
+    },
+    "cognition": {
+      "A": {"score": 8.2, "confidence": 0.78},
+      "B": {"score": 9.0, "confidence": 0.80},
+      "rationale": "3‑sec comprehension improves"
+    },
+    "action": {
+      "A": {"score": 8.0, "confidence": 0.70},
+      "B": {"score": 8.1, "confidence": 0.70},
+      "rationale": "Minor delta"
+    },
+    "accessibility": {
+      "A": {"score": 9.0, "confidence": 0.76},
+      "B": {"score": 9.0, "confidence": 0.76},
+      "rationale": "Both pass"
+    }
+  },
+  "grounding_coverage": {"A": 0.50, "B": 0.50},
+  "notes": "Add concrete Temporal workflow citations or inline code snippets"
+}

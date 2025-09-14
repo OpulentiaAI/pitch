@@ -1,0 +1,83 @@
+{
+  "id": "S6",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "B headline improves emphasis",
+      "confidence": 0.75
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Shared doc reference; no delta",
+      "confidence": 0.66
+    },
+    "narrative": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "B foregrounds guardrails",
+      "confidence": 0.7
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.5,
+      "rationale": "B hits 3‑sec rule",
+      "confidence": 0.75
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "B clearer CTA to gate/promote/revert",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.72,
+  "grounding_coverage": {
+    "A": 0.81,
+    "B": 0.81
+  },
+  "status": "NEEDS_MORE_EVIDENCE",
+  "notes": "Add numeric example thresholds on slide",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S6.A",
+    "headline": "Rollout & Guardrails",
+    "body": "Constraint‑reality bridging with canaries and metrics",
+    "evidence": [
+      "docs/AGENTIC_RL_MODULE_PROPOSAL.md#rollout"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "split_ideal_reality"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S6.B",
+    "headline": "Rollout with Guardrails",
+    "body": "Bolded Reality: Canary %, budgets, tokens, latency, safety",
+    "evidence": [
+      "docs/AGENTIC_RL_MODULE_PROPOSAL.md#rollout"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "split_ideal_reality"
+      ],
+      "issues": []
+    }
+  }
+}

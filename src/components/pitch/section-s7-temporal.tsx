@@ -2,7 +2,7 @@ export function SectionS7Temporal() {
   return (
     <div className="min-h-screen relative w-screen">
       <div className="absolute left-4 right-4 md:left-8 md:right-8 top-4 flex justify-between text-sm md:text-lg">
-        <span>Temporal as Control Plane</span>
+        <span>Temporal: Control Plane (Workflows decide; activities do)</span>
         <span className="text-[#878787]">Deterministic workflows • Activities for effects</span>
       </div>
       <div className="flex flex-col min-h-screen justify-center container">
