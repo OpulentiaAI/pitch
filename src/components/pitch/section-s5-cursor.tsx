@@ -7,7 +7,7 @@ export function SectionS5Cursor() {
       </div>
       <div className="flex flex-col min-h-screen justify-center container">
         <h2 className="px-4 md:px-0 text-[28px] md:text-[54px] font-medium text-center leading-tight">
-          Steerability + Long‑Horizon + Implicit Feedback = Production online RL
+          Steerability + Horizons + Feedback → Online RL
         </h2>
         <ul className="mt-8 max-w-3xl mx-auto text-[#9A9A9A] text-sm md:text-base space-y-2 px-8">
           <li>Preference learning from edits</li>

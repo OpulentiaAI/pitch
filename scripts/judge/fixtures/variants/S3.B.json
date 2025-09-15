@@ -1,0 +1,9 @@
+{
+  "id": "S3.B",
+  "headline": "Plan • Act • Verify • Learn",
+  "body": "Short H1 + explicit boundary (determinism in workflows; effects in activities)",
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution"
+  ],
+  "visual": {"pattern_tags": ["stepwise_evolution"], "issues": ["legend_small"]}
+}

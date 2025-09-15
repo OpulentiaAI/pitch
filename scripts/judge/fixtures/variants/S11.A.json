@@ -1,0 +1,9 @@
+{
+  "id": "S11.A",
+  "headline": "Evidence & Deterministic Checks",
+  "body": "Artifacts: answer.md, citations.json, plan.json, workflow_result.json; Checks: contains_all/regex/schema/table_schema",
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution"
+  ],
+  "visual": {"pattern_tags": ["insight_pattern"], "issues": []}
+}

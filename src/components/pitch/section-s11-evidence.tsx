@@ -2,7 +2,7 @@ export function SectionS11Evidence() {
   return (
     <div className="min-h-screen relative w-screen">
       <div className="absolute left-4 right-4 md:left-8 md:right-8 top-4 flex justify-between text-sm md:text-lg">
-        <span>Evidence & Deterministic Checks</span>
+        <span>Artifacts & Checks (Evidence beats vibes)</span>
         <span className="text-[#878787]">Artifacts • Checks</span>
       </div>
       <div className="flex flex-col min-h-screen justify-center container">

@@ -1,0 +1,85 @@
+{
+  "id": "S3",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.5,
+      "rationale": "B shorter H1 improves scan path",
+      "confidence": 0.8
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Same Temporal determinism reference",
+      "confidence": 0.66
+    },
+    "narrative": {
+      "pick": "A",
+      "delta": 0.3,
+      "rationale": "A longer phrase is clearer",
+      "confidence": 0.73
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.8,
+      "rationale": "B hits 3‑sec rule",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "B nudges toward adopting the loop",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.74,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Keep legends ≥12px",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S3.A",
+    "headline": "Patterns Library — Plan → Act → Verify → Learn",
+    "body": "Progressive loop with determinism callouts (workflows vs activities)",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "stepwise_evolution"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S3.B",
+    "headline": "Plan • Act • Verify • Learn",
+    "body": "Short H1 + explicit boundary (determinism in workflows; effects in activities)",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "stepwise_evolution"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

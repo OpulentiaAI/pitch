@@ -1,0 +1,85 @@
+{
+  "id": "S5",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "B headline improves 3‑sec comprehension",
+      "confidence": 0.79
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Same sources",
+      "confidence": 0.68
+    },
+    "narrative": {
+      "pick": "A",
+      "delta": 0.5,
+      "rationale": "A more explicit thesis reads stronger",
+      "confidence": 0.73
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.7,
+      "rationale": "B shorter H1 helps scanning",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.2,
+      "rationale": "B pushes toward concrete RL practice",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.74,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Keep H1 ≤60 chars if using B",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S5.A",
+    "headline": "Steerability + Long‑Horizon + Implicit Feedback = Production online RL",
+    "body": "Thesis + four bullets: edits, planning depth, canaries, rollback",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution",
+      "https://argo-rollouts.readthedocs.io/en/stable/features/canary/"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "clean_assertion"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S5.B",
+    "headline": "Steerability + Horizons + Feedback → Online RL",
+    "body": "Shorter H1; same four bullets",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution",
+      "https://argo-rollouts.readthedocs.io/en/stable/features/canary/"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "clean_assertion"
+      ],
+      "issues": []
+    }
+  }
+}

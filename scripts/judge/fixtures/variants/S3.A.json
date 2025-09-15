@@ -1,0 +1,9 @@
+{
+  "id": "S3.A",
+  "headline": "Patterns Library — Plan → Act → Verify → Learn",
+  "body": "Progressive loop with determinism callouts (workflows vs activities)",
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution"
+  ],
+  "visual": {"pattern_tags": ["stepwise_evolution"], "issues": []}
+}

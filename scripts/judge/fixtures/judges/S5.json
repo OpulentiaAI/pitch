@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "layout": {
+      "A": {"score": 8.7, "confidence": 0.78},
+      "B": {"score": 9.1, "confidence": 0.80},
+      "rationale": "B headline improves 3‑sec comprehension"
+    },
+    "grounding": {
+      "A": {"score": 7.8, "confidence": 0.68},
+      "B": {"score": 7.8, "confidence": 0.68},
+      "rationale": "Same sources"
+    },
+    "narrative": {
+      "A": {"score": 8.9, "confidence": 0.74},
+      "B": {"score": 8.4, "confidence": 0.72},
+      "rationale": "A more explicit thesis reads stronger"
+    },
+    "cognition": {
+      "A": {"score": 8.3, "confidence": 0.78},
+      "B": {"score": 9.0, "confidence": 0.80},
+      "rationale": "B shorter H1 helps scanning"
+    },
+    "action": {
+      "A": {"score": 8.1, "confidence": 0.70},
+      "B": {"score": 8.3, "confidence": 0.72},
+      "rationale": "B pushes toward concrete RL practice"
+    },
+    "accessibility": {
+      "A": {"score": 9.0, "confidence": 0.76},
+      "B": {"score": 9.0, "confidence": 0.76},
+      "rationale": "Both pass"
+    }
+  },
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Keep H1 ≤60 chars if using B"
+}

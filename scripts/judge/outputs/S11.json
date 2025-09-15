@@ -1,0 +1,85 @@
+{
+  "id": "S11",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "B headline improves emphasis",
+      "confidence": 0.77
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Same provenance",
+      "confidence": 0.64
+    },
+    "narrative": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "B makes the contrast explicit",
+      "confidence": 0.72
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.6,
+      "rationale": "B passes 3‑sec comprehension more easily",
+      "confidence": 0.77
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "B encourages measurable improvements",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.73,
+  "grounding_coverage": {
+    "A": 0.85,
+    "B": 0.85
+  },
+  "status": "OK",
+  "notes": "Ensure artifacts are actually produced in demo",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S11.A",
+    "headline": "Evidence & Deterministic Checks",
+    "body": "Artifacts: answer.md, citations.json, plan.json, workflow_result.json; Checks: contains_all/regex/schema/table_schema",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "insight_pattern"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S11.B",
+    "headline": "Artifacts & Checks (Evidence beats vibes)",
+    "body": "Artifacts list + checks + explicit claim about measurement over intuition",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "insight_pattern"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

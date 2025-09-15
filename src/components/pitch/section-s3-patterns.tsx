@@ -2,7 +2,7 @@ export function SectionS3Patterns() {
   return (
     <div className="min-h-screen relative w-screen">
       <div className="absolute left-4 right-4 md:left-8 md:right-8 top-4 flex justify-between text-sm md:text-lg">
-        <span>Patterns Library — Plan → Act → Verify → Learn</span>
+        <span>Plan • Act • Verify • Learn</span>
         <span className="text-[#878787]">Determinism in workflows • Effects in activities</span>
       </div>
       <div className="flex flex-col min-h-screen justify-center container">

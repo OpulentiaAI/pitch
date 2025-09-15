@@ -18,11 +18,23 @@ Status gate: Some comparisons flagged NEEDS_MORE_EVIDENCE due to grounding cover
   - Add hint to show thresholds (p95 latency, tokens) inline
 - Evidence actions: Cite rollout module proposal section.
 
-## S7 — Temporal Control Plane (Winner: B) — NEEDS_MORE_EVIDENCE
+## S7 — Temporal Control Plane (Winner: B)
 - Winner rationale: Inline boundary phrasing (Workflows decide; activities do) boosts clarity.
 - Applied edits:
   - Headline: “Temporal: Control Plane (Workflows decide; activities do)”
-- Evidence actions: Add concrete Temporal workflow citations or inline snippet in slide notes.
+- Evidence: Linked Temporal docs (workflow execution, continue_as_new, failure detection/heartbeats).
+
+## S3 — Patterns Library (Winner: B)
+- Winner rationale: Shorter H1 and 3‑sec comprehension win; A had slightly better narrative.
+- Applied edits:
+  - Header: “Plan • Act • Verify • Learn”
+- Evidence: Temporal workflow execution doc.
+
+## S5 — Cursor Thesis (Winner: B)
+- Winner rationale: Shorter thesis improves scanning while keeping bullets.
+- Applied edits:
+  - H2: “Steerability + Horizons + Feedback → Online RL”
+- Evidence: Temporal workflow execution and Argo canary docs.
 
 ## Global Enhancements
 - Add numeric examples for canary gates and thresholds on S6.
@@ -30,4 +42,4 @@ Status gate: Some comparisons flagged NEEDS_MORE_EVIDENCE due to grounding cover
 - Add at least two claim–evidence tuples per pillar slide; store in `scripts/judge/claims/*.json`.
 
 ## Outputs
-Aggregated JSON in `scripts/judge/outputs/` for S2, S6, S7 with per‑criterion picks, deltas, and gating status.
+Aggregated JSON in `scripts/judge/outputs/` for S2, S3, S5, S6, S7, S11 with per‑criterion picks, deltas, and gating status.

@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "layout": {
+      "A": {"score": 8.6, "confidence": 0.78},
+      "B": {"score": 9.1, "confidence": 0.81},
+      "rationale": "B shorter H1 improves scan path"
+    },
+    "grounding": {
+      "A": {"score": 7.5, "confidence": 0.66},
+      "B": {"score": 7.5, "confidence": 0.66},
+      "rationale": "Same Temporal determinism reference"
+    },
+    "narrative": {
+      "A": {"score": 8.8, "confidence": 0.74},
+      "B": {"score": 8.5, "confidence": 0.72},
+      "rationale": "A longer phrase is clearer"
+    },
+    "cognition": {
+      "A": {"score": 8.3, "confidence": 0.78},
+      "B": {"score": 9.1, "confidence": 0.80},
+      "rationale": "B hits 3‑sec rule"
+    },
+    "action": {
+      "A": {"score": 8.0, "confidence": 0.70},
+      "B": {"score": 8.3, "confidence": 0.72},
+      "rationale": "B nudges toward adopting the loop"
+    },
+    "accessibility": {
+      "A": {"score": 9.0, "confidence": 0.76},
+      "B": {"score": 9.0, "confidence": 0.76},
+      "rationale": "Both pass"
+    }
+  },
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Keep legends ≥12px"
+}

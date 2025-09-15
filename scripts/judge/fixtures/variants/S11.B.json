@@ -1,0 +1,9 @@
+{
+  "id": "S11.B",
+  "headline": "Artifacts & Checks (Evidence beats vibes)",
+  "body": "Artifacts list + checks + explicit claim about measurement over intuition",
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution"
+  ],
+  "visual": {"pattern_tags": ["insight_pattern"], "issues": ["legend_small"]}
+}

@@ -1,0 +1,10 @@
+{
+  "id": "S5.B",
+  "headline": "Steerability + Horizons + Feedback → Online RL",
+  "body": "Shorter H1; same four bullets",
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution",
+    "https://argo-rollouts.readthedocs.io/en/stable/features/canary/"
+  ],
+  "visual": {"pattern_tags": ["clean_assertion"], "issues": []}
+}
