@@ -14,6 +14,7 @@ import { Section12Factor } from "@/components/pitch/section-12factor";
 import { Section12FactorChecklist } from "@/components/pitch/section-12factor-checklist";
 import { SectionCognition } from "@/components/pitch/section-cognition";
 import { SectionFrontier } from "@/components/pitch/section-frontier";
+import { SectionCaseDevin } from "@/components/pitch/section-case-devin";
 import { SectionWorkshop } from "@/components/pitch/section-workshop";
 import { SectionWorkshopCTA } from "@/components/pitch/section-workshop-cta";
 import { SectionS7Temporal } from "@/components/pitch/section-s7-temporal";
@@ -77,6 +78,9 @@ export function PitchCarusel() {
         </CarouselItem>
         <CarouselItem>
           <SectionFrontier />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionCaseDevin />
         </CarouselItem>
         <CarouselItem>
           <SectionS7Temporal />
