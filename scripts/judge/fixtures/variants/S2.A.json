@@ -1,0 +1,7 @@
+{
+  "id": "S2.A",
+  "headline": "Core Agentic Pillars — Planning & Constraints • Orchestration & Tools • Evidence & Learning",
+  "body": "Three columns emphasize budgets, determinism, artifacts",
+  "evidence": ["memory-bank/systemPatterns.md#pillars", "BROWSER_TOOLING_HARDENED_SPEC.md#determinism"],
+  "visual": {"pattern_tags": ["tri_columns"], "issues": []}
+}

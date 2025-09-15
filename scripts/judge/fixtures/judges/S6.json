@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "layout": {
+      "A": {"score": 8.6, "confidence": 0.74},
+      "B": {"score": 8.9, "confidence": 0.76},
+      "rationale": "B headline improves emphasis"
+    },
+    "grounding": {
+      "A": {"score": 7.9, "confidence": 0.66},
+      "B": {"score": 7.9, "confidence": 0.66},
+      "rationale": "Shared doc reference; no delta"
+    },
+    "narrative": {
+      "A": {"score": 8.5, "confidence": 0.70},
+      "B": {"score": 8.6, "confidence": 0.70},
+      "rationale": "B foregrounds guardrails"
+    },
+    "cognition": {
+      "A": {"score": 8.2, "confidence": 0.74},
+      "B": {"score": 8.7, "confidence": 0.76},
+      "rationale": "B hits 3‑sec rule"
+    },
+    "action": {
+      "A": {"score": 8.3, "confidence": 0.70},
+      "B": {"score": 8.6, "confidence": 0.72},
+      "rationale": "B clearer CTA to gate/promote/revert"
+    },
+    "accessibility": {
+      "A": {"score": 9.0, "confidence": 0.76},
+      "B": {"score": 9.0, "confidence": 0.76},
+      "rationale": "Both pass"
+    }
+  },
+  "grounding_coverage": {"A": 0.81, "B": 0.81},
+  "notes": "Add numeric example thresholds on slide"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S6.B",
+  "headline": "Rollout with Guardrails",
+  "body": "Bolded Reality: Canary %, budgets, tokens, latency, safety",
+  "evidence": ["docs/AGENTIC_RL_MODULE_PROPOSAL.md#rollout"],
+  "visual": {"pattern_tags": ["split_ideal_reality"], "issues": []}
+}

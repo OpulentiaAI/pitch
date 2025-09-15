@@ -1,0 +1,7 @@
+{
+  "id": "S2.B",
+  "headline": "Plan & Constraints • Orchestrate & Tools • Evidence & Learn",
+  "body": "Triad with shorter H1 to improve scanability",
+  "evidence": ["memory-bank/systemPatterns.md#pillars"],
+  "visual": {"pattern_tags": ["tri_columns"], "issues": ["legend_small"]}
+}

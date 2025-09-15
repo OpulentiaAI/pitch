@@ -1,0 +1,7 @@
+{
+  "id": "S7.B",
+  "headline": "Temporal: Control Plane (Workflows decide; activities do)",
+  "body": "Adds boundary phrasing inline for 3‑sec comprehension",
+  "evidence": ["backend/orchestration/temporal/workflows.py#L1-120"],
+  "visual": {"pattern_tags": ["architecture_immersion"], "issues": []}
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S6.A",
+  "headline": "Rollout & Guardrails",
+  "body": "Constraint‑reality bridging with canaries and metrics",
+  "evidence": ["docs/AGENTIC_RL_MODULE_PROPOSAL.md#rollout"],
+  "visual": {"pattern_tags": ["split_ideal_reality"], "issues": []}
+}

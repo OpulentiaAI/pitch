@@ -1,0 +1,7 @@
+{
+  "id": "S7.A",
+  "headline": "Temporal as Control Plane",
+  "body": "Deterministic workflows; activities for effects",
+  "evidence": ["backend/orchestration/temporal/workflows.py#L1-120"],
+  "visual": {"pattern_tags": ["architecture_immersion"], "issues": []}
+}

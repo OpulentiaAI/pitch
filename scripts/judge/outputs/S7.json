@@ -1,0 +1,83 @@
+{
+  "id": "S7",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "Inline boundary improves scan path",
+      "confidence": 0.81
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "External code ref not available in this repo",
+      "confidence": 0.6
+    },
+    "narrative": {
+      "pick": "B",
+      "delta": 0.3,
+      "rationale": "Boundary phrasing clarifies roles",
+      "confidence": 0.75
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.8,
+      "rationale": "3‑sec comprehension improves",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "Minor delta",
+      "confidence": 0.7
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.73,
+  "grounding_coverage": {
+    "A": 0.5,
+    "B": 0.5
+  },
+  "status": "NEEDS_MORE_EVIDENCE",
+  "notes": "Add concrete Temporal workflow citations or inline code snippets",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S7.A",
+    "headline": "Temporal as Control Plane",
+    "body": "Deterministic workflows; activities for effects",
+    "evidence": [
+      "backend/orchestration/temporal/workflows.py#L1-120"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "architecture_immersion"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S7.B",
+    "headline": "Temporal: Control Plane (Workflows decide; activities do)",
+    "body": "Adds boundary phrasing inline for 3‑sec comprehension",
+    "evidence": [
+      "backend/orchestration/temporal/workflows.py#L1-120"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "architecture_immersion"
+      ],
+      "issues": []
+    }
+  }
+}

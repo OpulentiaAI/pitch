@@ -1,93 +1,81 @@
 "use client";
 
-import { setViewCount } from "@/actions/set-view-count";
-import { SectionBook } from "@/components/pitch/section-book";
-import { SectionDemo } from "@/components/pitch/section-demo";
-import { SectionNext } from "@/components/pitch/section-next";
-import { SectionProblem } from "@/components/pitch/section-problem";
-import { SectionSolution } from "@/components/pitch/section-solution";
-import { SectionStart } from "@/components/pitch/section-start";
-import { SectionSubscription } from "@/components/pitch/section-subscription";
-import { SectionTeam } from "@/components/pitch/section-team";
-import { SectionTraction } from "@/components/pitch/section-traction";
-import { SectionVision } from "@/components/pitch/section-vision";
-import {
-  Carousel,
-  type CarouselApi,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
+import { Carousel, type CarouselApi, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { useEffect, useRef, useState } from "react";
 import { CarouselToolbar } from "./carousel-toolbar";
+import { SectionS1Agent } from "@/components/pitch/section-s1-agent";
+import { SectionS2Pillars } from "@/components/pitch/section-s2-pillars";
+import { SectionS3Patterns } from "@/components/pitch/section-s3-patterns";
+import { SectionS4Survey } from "@/components/pitch/section-s4-survey";
+import { SectionS5Cursor } from "@/components/pitch/section-s5-cursor";
+import { SectionS6Rollout } from "@/components/pitch/section-s6-rollout";
+import { SectionS7Temporal } from "@/components/pitch/section-s7-temporal";
+import { SectionS8Daytona } from "@/components/pitch/section-s8-daytona";
+import { SectionS9Optimizations } from "@/components/pitch/section-s9-optimizations";
+import { SectionS10Memory } from "@/components/pitch/section-s10-memory";
+import { SectionS11Evidence } from "@/components/pitch/section-s11-evidence";
+import { SectionS12Demo } from "@/components/pitch/section-s12-demo";
+import { SectionRubric } from "@/components/pitch/section-rubric";
+import { SectionCommands } from "@/components/pitch/section-commands";
 
 export function PitchCarusel() {
   const [views, setViews] = useState(0);
   const called = useRef(false);
   const [api, setApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    async function fetchViewsCount() {
-      try {
-        // const data = await setViewCount("pitch");
-        // setViews(data);
-        setViews(18000);
-      } catch {}
-    }
-
     if (!called.current) {
-      fetchViewsCount();
+      setViews(0);
       called.current = true;
     }
   }, [called.current]);
-
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
-
-    setCurrent(api.selectedScrollSnap() + 1);
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
-    });
-  }, [api]);
 
   return (
     <Carousel className="w-full min-h-full relative" setApi={setApi}>
       <CarouselContent>
         <CarouselItem>
-          <SectionStart />
+          <SectionS1Agent />
         </CarouselItem>
         <CarouselItem>
-          <SectionProblem />
+          <SectionS2Pillars />
         </CarouselItem>
         <CarouselItem>
-          <SectionSolution />
+          <SectionS3Patterns />
         </CarouselItem>
         <CarouselItem>
-          <SectionDemo playVideo={current === 4} />
+          <SectionS4Survey />
         </CarouselItem>
         <CarouselItem>
-          <SectionTraction />
+          <SectionS5Cursor />
         </CarouselItem>
         <CarouselItem>
-          <SectionTeam />
+          <SectionS6Rollout />
         </CarouselItem>
         <CarouselItem>
-          <SectionSubscription />
+          <SectionS7Temporal />
         </CarouselItem>
         <CarouselItem>
-          <SectionVision />
+          <SectionS8Daytona />
         </CarouselItem>
         <CarouselItem>
-          <SectionNext />
+          <SectionS9Optimizations />
         </CarouselItem>
         <CarouselItem>
-          <SectionBook />
+          <SectionS10Memory />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionS11Evidence />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionS12Demo />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionRubric />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionCommands />
         </CarouselItem>
       </CarouselContent>
-
       <CarouselToolbar views={views} />
     </Carousel>
   );
