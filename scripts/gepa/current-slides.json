@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "headline": "Agentic Foundations & Self‑Evolving Systems",
+    "body": "Plan → Act → Verify → Learn (Cursor‑style online RL in practice)",
+    "evidence": [],
+    "visual": {"pattern_tags": ["gradient_hero"], "issues": []}
+  },
+  {
+    "id": "S4",
+    "headline": "Survey — Self‑Evolving Agents",
+    "body": "Offline improvements vs Online signals",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {"pattern_tags": ["split_panel_comparison"], "issues": ["legend_small"]}
+  },
+  {
+    "id": "S8",
+    "headline": "Daytona as Execution Plane",
+    "body": "Snapshots/templates → Sessions/commands → Previews/artifacts",
+    "evidence": [
+      "https://daytona.io/docs/en/getting-started/",
+      "https://www.daytona.io/docs/llms.txt"
+    ],
+    "visual": {"pattern_tags": ["three_element_connectivity"], "issues": []}
+  },
+  {
+    "id": "S9",
+    "headline": "Guide — 3 SOTA Optimizations with Daytona",
+    "body": "Snapshot ring, sessions + streaming, artifact‑first previews",
+    "evidence": [
+      "https://daytona.io/docs/en/getting-started/",
+      "https://www.daytona.io/docs/llms.txt"
+    ],
+    "visual": {"pattern_tags": ["numbered_blueprint_cards"], "issues": []}
+  },
+  {
+    "id": "S10",
+    "headline": "Memory & Context (Optional, Safe)",
+    "body": "Recall / Upsert with mem0",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {"pattern_tags": ["two_column_capability_split"], "issues": []}
+  },
+  {
+    "id": "S12",
+    "headline": "End‑to‑End Demo Path",
+    "body": "Four-lane journey: trigger → checks → optimize → rollout",
+    "evidence": [
+      "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/"
+    ],
+    "visual": {"pattern_tags": ["four_band_journey_map"], "issues": []}
+  },
+  {
+    "id": "Rubric",
+    "headline": "Verification Rubric (Machine‑Readable)",
+    "body": "Targets, evidence, gates with JSON schema",
+    "evidence": [],
+    "visual": {"pattern_tags": ["data_insight_action"], "issues": []}
+  },
+  {
+    "id": "Commands",
+    "headline": "Appendix — Quick Commands",
+    "body": "Temporal smoke, eval run, checks, GEPA optimize",
+    "evidence": [],
+    "visual": {"pattern_tags": ["code_block_list"], "issues": []}
+  }
+]
