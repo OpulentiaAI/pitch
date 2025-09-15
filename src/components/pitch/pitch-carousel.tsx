@@ -3,8 +3,10 @@
 import { Carousel, type CarouselApi, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { useEffect, useRef, useState } from "react";
 import { CarouselToolbar } from "./carousel-toolbar";
+import { SectionOpulentStart } from "@/components/pitch/section-opulent-start";
 import { SectionS1Agent } from "@/components/pitch/section-s1-agent";
 import { Section12Factor } from "@/components/pitch/section-12factor";
+import { Section12FactorChecklist } from "@/components/pitch/section-12factor-checklist";
 import { SectionCognition } from "@/components/pitch/section-cognition";
 import { SectionFrontier } from "@/components/pitch/section-frontier";
 import { SectionWorkshop } from "@/components/pitch/section-workshop";
@@ -20,6 +22,7 @@ import { SectionS10Memory } from "@/components/pitch/section-s10-memory";
 import { SectionS12Demo } from "@/components/pitch/section-s12-demo";
 import { SectionRubric } from "@/components/pitch/section-rubric";
 import { SectionCommands } from "@/components/pitch/section-commands";
+import { SectionOpulentEnd } from "@/components/pitch/section-opulent-end";
 
 export function PitchCarusel() {
   const [views, setViews] = useState(0);
@@ -37,10 +40,16 @@ export function PitchCarusel() {
     <Carousel className="w-full min-h-full relative" setApi={setApi}>
       <CarouselContent>
         <CarouselItem>
+          <SectionOpulentStart />
+        </CarouselItem>
+        <CarouselItem>
           <SectionS1Agent />
         </CarouselItem>
         <CarouselItem>
           <Section12Factor />
+        </CarouselItem>
+        <CarouselItem>
+          <Section12FactorChecklist />
         </CarouselItem>
         <CarouselItem>
           <SectionCognition />
@@ -83,6 +92,9 @@ export function PitchCarusel() {
         </CarouselItem>
         <CarouselItem>
           <SectionCommands />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionOpulentEnd />
         </CarouselItem>
       </CarouselContent>
       <CarouselToolbar views={views} />

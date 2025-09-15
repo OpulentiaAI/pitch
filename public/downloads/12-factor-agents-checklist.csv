@@ -1,0 +1,13 @@
+id,factor,description,suggested_metric,sources
+1,Deterministic orchestration (workflows),Decisions live in workflows for replay and audit,workflow_replay_ok:https//docs.temporal.io/workflow-execution#replay,https://docs.temporal.io/workflow-execution
+2,Idempotent activities at edges,All side-effects are retriable and idempotent,activity_idempotency_ratio,https://docs.temporal.io/activities
+3,Budgets caps and timeouts,Reasoning depth and time are capped per step,avg_tokens_per_step; task_timeout_ms,https://docs.temporal.io/develop/typescript/failure-detection
+4,Retries backoff heartbeats,Resilience via retries with backoff and activity heartbeats,retry_success_rate; heartbeat_latency_ms,https://docs.temporal.io/encyclopedia/detecting-activity-failures
+5,Namespaced tool contracts,Tool calls are deterministic with validation and budgets,tool_contract_pass_rate,internal
+6,Artifact-first outputs,Every run ships artifacts (files, previews, logs),artifact_emission_rate,internal
+7,Versioned prompts/policies,Prompts/policies are versioned and diffable,prompt_version_coverage_ratio,internal
+8,Canary rollout and instant rollback,Safe promotion gated by metrics with one-click revert,canary_percent; auto_revert_latency_ms,https://argo-rollouts.readthedocs.io/en/stable/features/canary/
+9,Offline evals and checks,Deterministic checks (regex/schema/table) score improvements,checks_pass_rate; spec_coverage,internal
+10,Online signals and routing,Implicit edits and success/failure drive policy/route updates,online_signal_utilization_rate,internal
+11,Memory that degrades safely,Recall/upsert noop when unconfigured; graceful fallback,memory_graceful_degrade_rate,internal
+12,Observability and audit trails,Histories logs previews and metrics are first-class,audit_trail_completeness_ratio,https://docs.temporal.io/workflow-execution
