@@ -5,11 +5,17 @@ import { useEffect, useRef, useState } from "react";
 import { CarouselToolbar } from "./carousel-toolbar";
 import { SectionOpulentStart } from "@/components/pitch/section-opulent-start";
 import { SectionS1Agent } from "@/components/pitch/section-s1-agent";
+import { SectionInsightsReasoning } from "@/components/pitch/section-insights-reasoning";
+import { SectionInsightsThemes } from "@/components/pitch/section-insights-themes";
+import { SectionInsightsWhatAgents } from "@/components/pitch/section-insights-what-agents";
+import { SectionInsightsDomainsBenefits } from "@/components/pitch/section-insights-domains-benefits";
+import { SectionInsightsCodingMarket } from "@/components/pitch/section-insights-coding-market";
 import { Section12Factor } from "@/components/pitch/section-12factor";
 import { Section12FactorChecklist } from "@/components/pitch/section-12factor-checklist";
 import { SectionCognition } from "@/components/pitch/section-cognition";
 import { SectionFrontier } from "@/components/pitch/section-frontier";
 import { SectionWorkshop } from "@/components/pitch/section-workshop";
+import { SectionWorkshopCTA } from "@/components/pitch/section-workshop-cta";
 import { SectionS7Temporal } from "@/components/pitch/section-s7-temporal";
 import { SectionS8Daytona } from "@/components/pitch/section-s8-daytona";
 import { SectionS9Optimizations } from "@/components/pitch/section-s9-optimizations";
@@ -46,6 +52,21 @@ export function PitchCarusel() {
           <SectionS1Agent />
         </CarouselItem>
         <CarouselItem>
+          <SectionInsightsReasoning />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionInsightsThemes />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionInsightsWhatAgents />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionInsightsDomainsBenefits />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionInsightsCodingMarket />
+        </CarouselItem>
+        <CarouselItem>
           <Section12Factor />
         </CarouselItem>
         <CarouselItem>
@@ -65,6 +86,9 @@ export function PitchCarusel() {
         </CarouselItem>
         <CarouselItem>
           <SectionWorkshop />
+        </CarouselItem>
+        <CarouselItem>
+          <SectionWorkshopCTA />
         </CarouselItem>
         <CarouselItem>
           <SectionS9Optimizations />
