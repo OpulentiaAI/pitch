@@ -1,0 +1,87 @@
+{
+  "id": "S_FRONTIER",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.5,
+      "rationale": "B headline scans faster",
+      "confidence": 0.8
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Same sources",
+      "confidence": 0.68
+    },
+    "narrative": {
+      "pick": "A",
+      "delta": 0.1,
+      "rationale": "Very close",
+      "confidence": 0.73
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.7,
+      "rationale": "B hits 3‑sec rule",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "B nudges adoption",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.74,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Ensure captions for images",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S_FRONTIER.A",
+    "headline": "Frontier Agents",
+    "body": "Long‑horizon, tool use, policy iteration",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution",
+      "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_column_with_images"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S_FRONTIER.B",
+    "headline": "Frontier: Plan • Tools • Learn",
+    "body": "Three‑column capabilities + Temporal/Argo visuals",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution",
+      "https://argo-rollouts.readthedocs.io/en/stable/features/canary/"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_column_with_images"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "S_OP_END",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "B headline adds scanable action",
+      "confidence": 0.79
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Same sources",
+      "confidence": 0.68
+    },
+    "narrative": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "B is more directive",
+      "confidence": 0.74
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.6,
+      "rationale": "B meets 3‑sec comprehension",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "B clearer CTA",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.74,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Add date/CTA if needed",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S_OP_END.A",
+    "headline": "Opulent OS — Where We Go Next",
+    "body": "Pilot → codify → scale",
+    "evidence": [
+      "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/",
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "three_column_outcome"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S_OP_END.B",
+    "headline": "Pilot → Codify → Scale (Opulent OS)",
+    "body": "Benchmarks, checks & budgets, canary‑gated promotion",
+    "evidence": [
+      "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/",
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "three_column_outcome"
+      ],
+      "issues": []
+    }
+  }
+}

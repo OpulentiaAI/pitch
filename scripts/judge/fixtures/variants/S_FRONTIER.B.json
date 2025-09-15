@@ -1,0 +1,1 @@
+{"id":"S_FRONTIER.B","headline":"Frontier: Plan • Tools • Learn","body":"Three‑column capabilities + Temporal/Argo visuals","evidence":["https://docs.temporal.io/workflow-execution","https://argo-rollouts.readthedocs.io/en/stable/features/canary/"],"visual":{"pattern_tags":["tri_column_with_images"],"issues":["legend_small"]}}

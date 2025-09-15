@@ -1,0 +1,85 @@
+{
+  "id": "S_12FCL",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.2,
+      "rationale": "B includes CTA in H1",
+      "confidence": 0.79
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "CSV present",
+      "confidence": 0.7
+    },
+    "narrative": {
+      "pick": "B",
+      "delta": 0.1,
+      "rationale": "B clearer intent",
+      "confidence": 0.74
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.5,
+      "rationale": "B 3‑sec comprehension",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "B explicit download",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.75,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Ensure link works",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S_12FCL.A",
+    "headline": "12‑Factor Agents — Checklist",
+    "body": "Reliability • Control • Learning",
+    "evidence": [
+      "/downloads/12-factor-agents-checklist.csv"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_columns"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S_12FCL.B",
+    "headline": "12‑Factor Agents — Downloadable Checklist",
+    "body": "One‑click CSV; Reliability • Control • Learning",
+    "evidence": [
+      "/downloads/12-factor-agents-checklist.csv"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "tri_columns"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

@@ -118,6 +118,30 @@ function main() {
       variantBPath: path.join(root, 'scripts/judge/fixtures/variants/S11.B.json'),
       judgePath: path.join(root, 'scripts/judge/fixtures/judges/S11.json'),
     },
+    {
+      id: 'S_OP_START',
+      variantAPath: path.join(root, 'scripts/judge/fixtures/variants/S_OP_START.A.json'),
+      variantBPath: path.join(root, 'scripts/judge/fixtures/variants/S_OP_START.B.json'),
+      judgePath: path.join(root, 'scripts/judge/fixtures/judges/S_OP_START.json'),
+    },
+    {
+      id: 'S_OP_END',
+      variantAPath: path.join(root, 'scripts/judge/fixtures/variants/S_OP_END.A.json'),
+      variantBPath: path.join(root, 'scripts/judge/fixtures/variants/S_OP_END.B.json'),
+      judgePath: path.join(root, 'scripts/judge/fixtures/judges/S_OP_END.json'),
+    },
+    {
+      id: 'S_FRONTIER',
+      variantAPath: path.join(root, 'scripts/judge/fixtures/variants/S_FRONTIER.A.json'),
+      variantBPath: path.join(root, 'scripts/judge/fixtures/variants/S_FRONTIER.B.json'),
+      judgePath: path.join(root, 'scripts/judge/fixtures/judges/S_FRONTIER.json'),
+    },
+    {
+      id: 'S_12FCL',
+      variantAPath: path.join(root, 'scripts/judge/fixtures/variants/S_12FCL.A.json'),
+      variantBPath: path.join(root, 'scripts/judge/fixtures/variants/S_12FCL.B.json'),
+      judgePath: path.join(root, 'scripts/judge/fixtures/judges/S_12FCL.json'),
+    },
   ];
 
   const outDir = path.join(root, 'scripts/judge/outputs');

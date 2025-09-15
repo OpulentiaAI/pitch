@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "layout": {"A": {"score": 8.7, "confidence": 0.79}, "B": {"score": 9.1, "confidence": 0.81}, "rationale": "B headline scans faster"},
+    "grounding": {"A": {"score": 7.7, "confidence": 0.68}, "B": {"score": 7.7, "confidence": 0.68}, "rationale": "Temporal reference"},
+    "narrative": {"A": {"score": 8.9, "confidence": 0.74}, "B": {"score": 8.6, "confidence": 0.72}, "rationale": "A thesis more explicit"},
+    "cognition": {"A": {"score": 8.3, "confidence": 0.78}, "B": {"score": 9.0, "confidence": 0.80}, "rationale": "B meets 3‑sec rule"},
+    "action": {"A": {"score": 8.0, "confidence": 0.70}, "B": {"score": 8.2, "confidence": 0.72}, "rationale": "B points to mechanisms"},
+    "accessibility": {"A": {"score": 9.0, "confidence": 0.76}, "B": {"score": 9.0, "confidence": 0.76}, "rationale": "Both pass"}
+  },
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Keep H1 ≤60 chars if using B"
+}

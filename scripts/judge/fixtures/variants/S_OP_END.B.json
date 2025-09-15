@@ -1,0 +1,1 @@
+{"id":"S_OP_END.B","headline":"Pilot → Codify → Scale (Opulent OS)","body":"Benchmarks, checks & budgets, canary‑gated promotion","evidence":["https://argo-rollouts.readthedocs.io/en/stable/features/analysis/","https://docs.temporal.io/workflow-execution"],"visual":{"pattern_tags":["three_column_outcome"],"issues":[]}}

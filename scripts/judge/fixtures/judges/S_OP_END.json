@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "layout": {"A": {"score": 8.6, "confidence": 0.78}, "B": {"score": 9.0, "confidence": 0.80}, "rationale": "B headline adds scanable action"},
+    "grounding": {"A": {"score": 7.8, "confidence": 0.68}, "B": {"score": 7.8, "confidence": 0.68}, "rationale": "Same sources"},
+    "narrative": {"A": {"score": 8.7, "confidence": 0.74}, "B": {"score": 8.8, "confidence": 0.75}, "rationale": "B is more directive"},
+    "cognition": {"A": {"score": 8.4, "confidence": 0.78}, "B": {"score": 9.0, "confidence": 0.80}, "rationale": "B meets 3‑sec comprehension"},
+    "action": {"A": {"score": 8.2, "confidence": 0.70}, "B": {"score": 8.6, "confidence": 0.72}, "rationale": "B clearer CTA"},
+    "accessibility": {"A": {"score": 9.0, "confidence": 0.76}, "B": {"score": 9.0, "confidence": 0.76}, "rationale": "Both pass"}
+  },
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Add date/CTA if needed"
+}

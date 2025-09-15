@@ -1,0 +1,85 @@
+{
+  "id": "S_OP_START",
+  "winner": "B",
+  "panel": {
+    "layout": {
+      "pick": "B",
+      "delta": 0.4,
+      "rationale": "B headline scans faster",
+      "confidence": 0.8
+    },
+    "grounding": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Temporal reference",
+      "confidence": 0.68
+    },
+    "narrative": {
+      "pick": "A",
+      "delta": 0.3,
+      "rationale": "A thesis more explicit",
+      "confidence": 0.73
+    },
+    "cognition": {
+      "pick": "B",
+      "delta": 0.7,
+      "rationale": "B meets 3‑sec rule",
+      "confidence": 0.79
+    },
+    "action": {
+      "pick": "B",
+      "delta": 0.2,
+      "rationale": "B points to mechanisms",
+      "confidence": 0.71
+    },
+    "accessibility": {
+      "pick": "tie",
+      "delta": 0,
+      "rationale": "Both pass",
+      "confidence": 0.76
+    }
+  },
+  "mean_confidence": 0.74,
+  "grounding_coverage": {
+    "A": 0.9,
+    "B": 0.9
+  },
+  "status": "OK",
+  "notes": "Keep H1 ≤60 chars if using B",
+  "loser_edit": {
+    "for": "A",
+    "headline": "Shorten headline to ≤60 chars",
+    "layout": "Increase legend size to ≥12px and add 16px spacing",
+    "evidence": "Add two citations with line anchors to code/docs"
+  },
+  "variant_A": {
+    "id": "S_OP_START.A",
+    "headline": "Opulent OS — Temporal‑native Agent Orchestration",
+    "body": "Durability • Governance • Speed",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "gradient_hero"
+      ],
+      "issues": []
+    }
+  },
+  "variant_B": {
+    "id": "S_OP_START.B",
+    "headline": "Opulent OS — Orchestrate Durable Agents",
+    "body": "Temporal workflows, artifacts, gates",
+    "evidence": [
+      "https://docs.temporal.io/workflow-execution"
+    ],
+    "visual": {
+      "pattern_tags": [
+        "gradient_hero"
+      ],
+      "issues": [
+        "legend_small"
+      ]
+    }
+  }
+}

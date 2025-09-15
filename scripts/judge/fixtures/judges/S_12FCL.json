@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "layout": {"A": {"score": 8.7, "confidence": 0.78}, "B": {"score": 8.9, "confidence": 0.80}, "rationale": "B includes CTA in H1"},
+    "grounding": {"A": {"score": 8.0, "confidence": 0.70}, "B": {"score": 8.0, "confidence": 0.70}, "rationale": "CSV present"},
+    "narrative": {"A": {"score": 8.6, "confidence": 0.74}, "B": {"score": 8.7, "confidence": 0.75}, "rationale": "B clearer intent"},
+    "cognition": {"A": {"score": 8.3, "confidence": 0.78}, "B": {"score": 8.8, "confidence": 0.80}, "rationale": "B 3‑sec comprehension"},
+    "action": {"A": {"score": 8.2, "confidence": 0.70}, "B": {"score": 8.6, "confidence": 0.72}, "rationale": "B explicit download"},
+    "accessibility": {"A": {"score": 9.0, "confidence": 0.76}, "B": {"score": 9.0, "confidence": 0.76}, "rationale": "Both pass"}
+  },
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Ensure link works"
+}
