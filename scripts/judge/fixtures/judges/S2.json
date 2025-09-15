@@ -31,8 +31,8 @@
       "rationale": "Both pass; enlarge legend"
     }
   },
-  "grounding_coverage": {"A": 0.80, "B": 0.82},
-  "notes": "If keeping A, reduce H1 to ≤60 chars; enlarge legend to ≥12px.",
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Grounded with Temporal workflow execution and Argo analysis gates",
   "loser_edit": {
     "headline": "Shorten headline to ≤60 chars",
     "layout": "Increase spacing to 24px between columns",

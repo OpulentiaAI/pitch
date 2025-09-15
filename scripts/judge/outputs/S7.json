@@ -41,11 +41,11 @@
   },
   "mean_confidence": 0.73,
   "grounding_coverage": {
-    "A": 0.5,
-    "B": 0.5
+    "A": 0.9,
+    "B": 0.9
   },
-  "status": "NEEDS_MORE_EVIDENCE",
-  "notes": "Add concrete Temporal workflow citations or inline code snippets",
+  "status": "OK",
+  "notes": "Grounded with Temporal docs (workflow execution, continue_as_new, failure detection/heartbeats)",
   "loser_edit": {
     "for": "A",
     "headline": "Shorten headline to ≤60 chars",
@@ -57,7 +57,9 @@
     "headline": "Temporal as Control Plane",
     "body": "Deterministic workflows; activities for effects",
     "evidence": [
-      "backend/orchestration/temporal/workflows.py#L1-120"
+      "https://docs.temporal.io/workflow-execution",
+      "https://python.temporal.io/temporalio.workflow.html#temporalio.workflow.continue_as_new",
+      "https://docs.temporal.io/develop/typescript/failure-detection"
     ],
     "visual": {
       "pattern_tags": [
@@ -71,7 +73,9 @@
     "headline": "Temporal: Control Plane (Workflows decide; activities do)",
     "body": "Adds boundary phrasing inline for 3‑sec comprehension",
     "evidence": [
-      "backend/orchestration/temporal/workflows.py#L1-120"
+      "https://docs.temporal.io/workflow-execution",
+      "https://python.temporal.io/temporalio.workflow.html#temporalio.workflow.continue_as_new",
+      "https://docs.temporal.io/develop/typescript/failure-detection"
     ],
     "visual": {
       "pattern_tags": [

@@ -2,6 +2,9 @@
   "id": "S2.B",
   "headline": "Plan & Constraints • Orchestrate & Tools • Evidence & Learn",
   "body": "Triad with shorter H1 to improve scanability",
-  "evidence": ["memory-bank/systemPatterns.md#pillars"],
+  "evidence": [
+    "https://docs.temporal.io/workflow-execution",
+    "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/"
+  ],
   "visual": {"pattern_tags": ["tri_columns"], "issues": ["legend_small"]}
 }

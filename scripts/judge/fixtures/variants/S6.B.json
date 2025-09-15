@@ -2,6 +2,9 @@
   "id": "S6.B",
   "headline": "Rollout with Guardrails",
   "body": "Bolded Reality: Canary %, budgets, tokens, latency, safety",
-  "evidence": ["docs/AGENTIC_RL_MODULE_PROPOSAL.md#rollout"],
+  "evidence": [
+    "https://argo-rollouts.readthedocs.io/en/stable/features/canary/",
+    "https://argo-rollouts.readthedocs.io/en/stable/features/analysis/"
+  ],
   "visual": {"pattern_tags": ["split_ideal_reality"], "issues": []}
 }

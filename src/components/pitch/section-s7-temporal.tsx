@@ -28,6 +28,12 @@ export function SectionS7Temporal() {
           <p className="mt-10 text-center text-[#B4B4B4] text-sm md:text-base">
             Temporal brings grown‑up orchestration: retries, timeouts, heartbeats, and histories. Workflows decide; activities do. Keep the I/O at the edges and the logic in the middle. Your future self will thank you in incident review.
           </p>
+            <div className="mt-8 text-center text-xs text-[#8A8A8A] space-x-4">
+              <a className="underline" href="https://docs.temporal.io/workflow-execution" target="_blank" rel="noreferrer">Temporal docs: Workflow execution</a>
+              <a className="underline" href="https://python.temporal.io/temporalio.workflow.html" target="_blank" rel="noreferrer">Python SDK: continue_as_new</a>
+              <a className="underline" href="https://docs.temporal.io/develop/typescript/failure-detection" target="_blank" rel="noreferrer">TypeScript: failure detection & heartbeats</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

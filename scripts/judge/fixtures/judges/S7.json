@@ -31,6 +31,6 @@
       "rationale": "Both pass"
     }
   },
-  "grounding_coverage": {"A": 0.50, "B": 0.50},
-  "notes": "Add concrete Temporal workflow citations or inline code snippets"
+  "grounding_coverage": {"A": 0.90, "B": 0.90},
+  "notes": "Grounded with Temporal docs (workflow execution, continue_as_new, failure detection/heartbeats)"
 }

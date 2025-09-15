@@ -27,6 +27,10 @@ export function SectionS6Rollout() {
         <p className="mt-10 max-w-4xl mx-auto text-center text-[#B4B4B4] text-sm md:text-base px-4">
           Production is where good ideas go to fail—unless you gate them. Run 1–5% canaries. Watch pass rate, p95 latency, error bands, token spend, and safety. Promote on proof. Revert in one click. Confidence comes from controls.
         </p>
+        <div className="mt-6 text-center text-xs text-[#8A8A8A] space-x-4">
+          <a className="underline" href="https://argo-rollouts.readthedocs.io/en/stable/features/canary/" target="_blank" rel="noreferrer">Argo Rollouts: Canary strategy</a>
+          <a className="underline" href="https://argo-rollouts.readthedocs.io/en/stable/features/analysis/" target="_blank" rel="noreferrer">Argo Rollouts: Analysis & metrics</a>
+        </div>
       </div>
     </div>
   );

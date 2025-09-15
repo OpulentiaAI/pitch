@@ -38,6 +38,10 @@ export function SectionS2Pillars() {
         <p className="mt-10 max-w-4xl mx-auto text-center text-[#B4B4B4] text-sm md:text-base px-4">
           Pillars, not truisms. Planning sets intent, constraints enforce quality, orchestration gives repeatability, artifacts ground truth, and learning closes the loop. If a pillar is missing, the agent regresses to a toy.
         </p>
+        <div className="mt-6 text-center text-xs text-[#8A8A8A] space-x-4">
+          <a className="underline" href="https://docs.temporal.io/workflow-execution" target="_blank" rel="noreferrer">Temporal: workflow determinism & histories</a>
+          <a className="underline" href="https://argo-rollouts.readthedocs.io/en/stable/features/analysis/" target="_blank" rel="noreferrer">Progressive delivery: analysis gates</a>
+        </div>
       </div>
     </div>
   );

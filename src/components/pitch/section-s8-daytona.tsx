@@ -23,6 +23,10 @@ export function SectionS8Daytona() {
         <p className="mt-10 max-w-4xl mx-auto text-center text-[#B4B4B4] text-sm md:text-base px-4">
           Treat compute like a clean room. Snapshots boot fast. Sessions run long. Logs stream in real time. Previews become artifacts. No mystery servers, no tribal knowledge. Just repeatable runs you can inspect.
         </p>
+        <div className="mt-6 text-center text-xs text-[#8A8A8A] space-x-4">
+          <a className="underline" href="https://daytona.io/docs/en/getting-started/" target="_blank" rel="noreferrer">Daytona docs: Getting started</a>
+          <a className="underline" href="https://www.daytona.io/docs/llms.txt" target="_blank" rel="noreferrer">Daytona: audit logs & execution</a>
+        </div>
       </div>
     </div>
   );
