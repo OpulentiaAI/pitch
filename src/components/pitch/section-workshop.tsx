@@ -22,11 +22,17 @@ export function SectionWorkshop() {
             </ol>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="border border-border bg-[#121212] p-3 flex items-center justify-center">
-              <Image src={claudeImg} alt="Claude Code" className="object-contain w-full h-[220px]" />
+            <div className="border border-border bg-[#121212] p-3">
+              <div className="flex items-center justify-center">
+                <Image src={claudeImg} alt="Claude Code" className="object-contain w-full h-[200px]" />
+              </div>
+              <p className="mt-2 text-[11px] text-[#8A8A8A] text-center">Source: Anthropic — Claude Code</p>
             </div>
-            <div className="border border-border bg-[#121212] p-3 flex items-center justify-center">
-              <Image src={daytonaRun} alt="Daytona run" className="object-contain w-full h-[220px]" />
+            <div className="border border-border bg-[#121212] p-3">
+              <div className="flex items-center justify-center">
+                <Image src={daytonaRun} alt="Daytona run" className="object-contain w-full h-[200px]" />
+              </div>
+              <p className="mt-2 text-[11px] text-[#8A8A8A] text-center">Source: Daytona SDK example</p>
             </div>
           </div>
         </div>

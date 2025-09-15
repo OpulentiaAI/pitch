@@ -19,11 +19,17 @@ export function SectionFrontier() {
               <li>Policy iteration from online signals</li>
             </ul>
           </div>
-          <div className="border border-border bg-[#121212] p-4 md:p-6 flex items-center justify-center">
-            <Image src={temporalImg} alt="Temporal UI" className="object-contain w-full h-[260px]" />
+          <div className="border border-border bg-[#121212] p-4 md:p-6">
+            <div className="flex items-center justify-center">
+              <Image src={temporalImg} alt="Temporal UI" className="object-contain w-full h-[240px]" />
+            </div>
+            <p className="mt-2 text-[11px] text-[#8A8A8A] text-center">Source: Temporal docs UI</p>
           </div>
-          <div className="border border-border bg-[#121212] p-4 md:p-6 flex items-center justify-center">
-            <Image src={argoImg} alt="Argo Rollouts UI" className="object-contain w-full h-[260px]" />
+          <div className="border border-border bg-[#121212] p-4 md:p-6">
+            <div className="flex items-center justify-center">
+              <Image src={argoImg} alt="Argo Rollouts UI" className="object-contain w-full h-[240px]" />
+            </div>
+            <p className="mt-2 text-[11px] text-[#8A8A8A] text-center">Source: Argo Rollouts UI</p>
           </div>
         </div>
         <div className="mt-8 text-center text-xs text-[#8A8A8A] space-x-4">

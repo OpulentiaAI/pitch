@@ -18,9 +18,12 @@ export function SectionS6Rollout() {
           <div className="border border-border bg-[#121212] p-6 md:p-8">
             <h3 className="text-xl md:text-2xl mb-3">Reality</h3>
             <ul className="text-[#9A9A9A] text-sm space-y-2">
-              <li>Canary %, budgets, tokens</li>
-              <li>Latency and safety thresholds</li>
-              <li>Revert in one click</li>
+              <li>Canary: 1–5% traffic, promote only on pass</li>
+              <li>Pass rate ≥ 0.90 on eval checks</li>
+              <li>p95 latency ≤ 5000 ms (service‑bound)</li>
+              <li>Error rate ≤ 1.0%; zero safety violations</li>
+              <li>Token budget ≤ 30k/run (hard cap)</li>
+              <li>One‑click revert with artifact link</li>
             </ul>
           </div>
         </div>
